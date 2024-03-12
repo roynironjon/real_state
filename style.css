@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.top-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.top-header .header-item{
+    display: grid;
+    grid-template-columns: 1fr  4fr;
+    align-items: center;
+    column-gap: 40px;
+}
+.top-header .header-item .date{
+    text-align: center;
+}
+.top-header .header-item .logo img{
+    width: auto;
+}
+.top-header .header-item .menubar{
+    text-align: right;
+}
+.top-header .header-item .menubar li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+.top-header .header-item .menubar li:last-child{
+    margin-right: 0px;
+}
+.top-header .header-item .menubar li a{
+    text-decoration: none;
+    color: #333;
+    transition: .4s;
+}
+.top-header .header-item .menubar li a:hover{
+    color: #333;
+}
+
+.slicknav_menu{
+    display: none;
+    /* max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px; */
+}
+/* top heade section end */
+.banner-section img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+	position: relative;
+	top: -70px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+	display: none;
+}
+/* banner section end */
+.service-section{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.service-header-content{
+    text-align: center;
+    font-size: 29px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 60px;
+}
+.service-section .main-serive
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+.service-section .main-serive .flex-col img{
+    width: 100%;
+}
+.service-section .main-serive .flex-col h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.service-section .main-serive .flex-col p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 10px;
+}
+.service-section .main-serive .flex-col span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+/* service section end */
+.feadback-section{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.feadback-section .heading{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.feadback-section .heading h2{
+    font-size: 29px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.feadback-section .heading p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+}
+.feadback-section .main-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.feadback-section .main-column .flex-col img{
+    width: auto;
+}
+.feadback-section .main-column .flex-col h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.feadback-section .main-column .flex-col p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+}
+
+/* service section end */
+.socket {
+	background: #000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.socket p{
+    text-align: center;
+    color: #fff;
+}
+
+/* about page design start */
+.about-section{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.about-section .main-serive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    align-items: center;
+}
+.about-section .main-serive .flex-col img{
+    width: 100%;
+}
+.about-section .main-serive .about-content h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+.about-section .main-serive .about-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 10px;
+}
+.about-section .main-serive .about-content a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 35px;
+    background: #F5CBA7;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.about-section .main-serive .about-content a:hover{
+    background: #000;
+    color: #fff;
+}
+/* about page design end */
+
+/* faq page design start */
+.faq{
+    margin-top: 40px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-size: 29px;
+    font-weight: 600;
+    color: #000;
+}
+
+.faq {
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+.question h2 {
+    margin-top: 0;
+    color: #333;
+    cursor: pointer; 
+}
+.question p.answer {
+    margin-bottom: 0;
+    color: #666;
+    display: none; 
+
+}
+/* faq page design end */
+.contact-banner{
+    position: relative;
+}
+.contact-banner img{
+    width: 100%;
+    display: block;
+}
+.about-banner{
+    position: relative;
+}
+.about-banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+}
+
+.contact-banner .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+.contact-banner .content h2{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+.contact-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.contact-section .header{
+    font-size: 29px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.map{
+    padding-bottom: 60px;
+}
+.contact-section .main-content{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-section .main-content .form label{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.contact-section .main-content .form input{
+    width: 100%;
+    padding: 6px 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+.contact-section .main-content .form  .btn input{
+    width: 20%;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    transition: .4s;
+}
+.contact-section .main-content .form  .btn input:hover{
+    background: #333;
+    color: #fff;
+}
+.contact-section .main-content .form  .heading h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.contact-section .main-content .form textarea{
+    width: 100%;
+    height: 100px;
+    padding: 6px 15px;
+    margin-bottom: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    resize: none;
+}
+.date-section{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.date-section .date-time{
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #666;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.date-section .date-time h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#datetime {
+	font-size: 14px;
+	text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+
+/* responsive design start */
+@media screen and(max-width:989px){
+    .container{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .slicknav_menu{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media screen and (max-width: 800px){
+    .about-section .main-serive {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .about-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .contact-banner img {
+        height: 200px;
+    }
+    .about-section .main-serive .about-content h4 {
+        font-size: 22px;
+        margin-bottom: 6px;
+    }
+    .service-header-content {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .contact-section .header {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .contact-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .faq {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    h1 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 767px){
+    .service-section .main-serive {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .feadback-section .main-column {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .service-section {
+        padding-top: 0px;
+        padding-bottom: 45px;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 640px){
+    .top-header .header-item .logo img {
+        width: 150px;
+    }
+    .top-header .header-item .menubar {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        background: none;
+        top: 22px;
+        padding: 0;
+    }
+    .slicknav_nav {
+        position: relative;
+        top: 32px;
+        background: #6BBF96;
+        z-index: 99999;
+        width: 350px;
+        text-align: center;
+        height: 100vh;
+    }
+    .slicknav_nav li{
+        line-height: 30px;
+    }
+    .slicknav_btn {
+        background: none;
+        margin-right: 27px;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_open::after{
+        content: '\f00d';
+        position: absolute;
+        left: 5px;
+        color: #000;
+        font-size: 18px;
+        font-family: fontawesome;
+    }
+    .slicknav_collapsed::before{
+        content: '\f0c9';
+        position: absolute;
+        left: 5px;
+        color: #000;
+        font-size: 18px;
+        font-family: fontawesome;
+    }
+    .slicknav_menu .slicknav_icon {
+        display: none;
+    }
+}
+@media screen and(max-width:520px){
+    
+}
+@media screen and(max-width:480px){
+    
+}
+/* responsive design end */
